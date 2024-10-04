@@ -10,7 +10,7 @@ const blogRoute=require("./Routes/blogRoute")
 
 
 app.use(cookieParser());
-dotenv.config()
+dotenv.config() 
 
 
 app.use(express.json())
