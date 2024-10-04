@@ -1,0 +1,115 @@
+/* Custom Navbar Styles */
+.navbar {
+    background-color: #343a40; /* Dark background */
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f9fa;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #f8f9fa;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #00ff6a; /* Active link color */
+    border-bottom: 2px solid #00ff6a; /* Underline active link */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #09ff00;
+    border-bottom: 2px solid #18ff10;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-toggler-icon {
+    color: #f8f9fa;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-nav {
+      text-align: center;
+    }
+    
+    .nav-link {
+      margin: 0.5rem 0;
+    }
+  }
+  
+  /* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer a {
+    color: #00ff6a;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #00ff9e;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Ensure body takes full height */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Footer always at the bottom */
+footer {
+    margin-top: auto;
+}
+
+
+
+/* CreateBlog.css */
+/* UpdateBlogPost.css */
+.container {
+    max-width: 600px; /* Limit the width of the form */
+    margin: auto; /* Center the container */
+}
+
+h2 {
+    color: #343a40; /* Darker shade for the heading */
+}
+
+.alert {
+    margin-top: 20px; /* Add space above alerts */
+}
+
+
+.btn-neon{
+    color: #00ff6a;
+    background: #212529;
+    &:hover{
+        color: white;
+    }
+}
+  
